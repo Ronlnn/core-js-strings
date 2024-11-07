@@ -214,8 +214,8 @@ function sumOfCodes(str) {
  *   startsWith('Hello World', 'World') => false
  *   startsWith('Hello World', 'Hello') => true
  */
-function startsWith( str, subst) {
-  return str.startsWith()
+function startsWith(str, subst) {
+  return str.startsWith(subst);
 }
 
 /**
